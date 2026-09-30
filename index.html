@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- word-input -->
+    <p>
+        <label for="word-input">text</label>
+        <input id="word-input" type="text" placeholer="type here"/>
+    </p>
+
+    <!-- background color -->
+    <p>
+        <label for="background-color">background-color</label>
+        <input id="background-color" type="color" value="#70ecff"/>
+        <output for="background-color"></output>
+    </p>
+
+    <!-- wingspan -->
+     <p>
+        <label for="wingspan">wingspan</label>
+        <input id="wingspan" type="range" min=".1" max="1.5" step=".01" value=".8.5"/>
+     </p>
+
+    <!-- airplane-size -->
+     <p>
+        <label for="airplane-size">airplane-size</label>
+        <input id="airplane-size" type="range" min="0.1" max="3" step="0.01" value="1"/>
+        <output for="airplane-size"></output>
+     </p>
+
+     <!-- airplane rotation -->
+     <p>
+        <label for="airplane-rotation">airplane-rotation</airplane-r></label>
+        <input id="airplane-rotation" type="range" min="-180" max="180" value="0"/>
+
+    <!--------- images -------->
+    <div id="bg">
+        <div id="background"></div>
+        <img id="wings" src="assets/wings.png"/>
+        <img id="body" src="assets/body.png"/>
+        <h1 id="word">weeee!</h1>
+    </div>
+    </p>
+
+    <section id="movies"></section>
+    <script src="script.js"></script>
+</body>
+</html>
